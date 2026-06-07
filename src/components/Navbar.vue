@@ -142,7 +142,7 @@
 import { ref, onMounted, computed } from "vue";
 import { useI18n } from "../i18n";
 
-const isDark = ref(false);
+const isDark = ref(true);
 const showMobile = ref(false);
 const { content, language, toggleLanguage } = useI18n();
 const nav = computed(() => content.value.nav);
@@ -185,13 +185,8 @@ onMounted(() => {
     const saved = localStorage.getItem("theme");
     if (saved === "dark" || saved === "light") {
       applyTheme(saved === "dark");
-    } else if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-    ) {
-      applyTheme(true);
     } else {
-      applyTheme(false);
+      applyTheme(true);
     }
   } catch (e) {
     // ignore

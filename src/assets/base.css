@@ -23,16 +23,16 @@
 
 /* semantic color variables for this project */
 :root {
-  /* Light theme foundation */
-  --color-background: #fbfdff; /* very light blue-white */
-  --color-background-soft: #ffffff;
-  --color-background-mute: #f1f5f9; /* subtle off-white */
+  /* Dark theme foundation */
+  --color-background: var(--vt-c-black);
+  --color-background-soft: var(--vt-c-black-soft);
+  --color-background-mute: var(--vt-c-black-mute);
 
   --color-border: rgba(15, 23, 42, 0.06);
   --color-border-hover: rgba(15, 23, 42, 0.09);
 
-  --color-heading: #0b1220; /* near slate-950 */
-  --color-text: rgba(15, 23, 42, 0.84);
+  --color-heading: #f8fafc;
+  --color-text: rgba(226, 232, 240, 0.88);
 
   --section-gap: 160px;
   --accent: #06b6d4; /* cyan-500 for brighter light accent */

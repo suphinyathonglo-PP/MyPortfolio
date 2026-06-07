@@ -164,7 +164,7 @@ const translations = {
           repo: "",
           link: "",
           range: "พ.ย. 2568",
-          initials: "WM",
+          initials: "https://projectsuankaset-1.onrender.com",
         },
         {
           id: 2,
