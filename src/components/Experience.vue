@@ -97,7 +97,11 @@
               />
             </template>
             <template v-else>
-              <div>{{ project.initials }}</div>
+              <img
+                :src="project.initials"
+                :alt="project.title"
+                class="w-full h-full object-cover opacity-50"
+              />
             </template>
           </div>
           <div class="project-meta">

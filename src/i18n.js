@@ -86,6 +86,7 @@ const translations = {
           items: [
             "Render",
             "Neon",
+            "Vercel",
             "Supabase",
             "Git/GitHub",
             "Swagger",
@@ -120,7 +121,7 @@ const translations = {
           bullets: [
             "พัฒนา RESTful API ด้วย .NET (C#) และ Entity Framework Core",
             "พัฒนา Frontend ด้วย React และ TypeScript",
-            "ออกแบบและจัดการข้อมูลด้วย SQL Server",
+            "จัดการข้อมูลด้วย SQL Server",
             "ใช้ SonarQube เพื่อตรวจสอบคุณภาพโค้ดและลดความเสี่ยงของ Bug",
             "จัดทำเอกสาร API ด้วย Swagger และทำงานร่วมกับทีมผ่าน Git, Jira และ Agile/Scrum",
           ],
@@ -154,18 +155,18 @@ const translations = {
         },
       ],
       projects: [
-        {
-          id: 1,
-          title: "WatchMan - API Log Monitor",
-          description:
-            "ระบบติดตามสถานะ API และวิเคราะห์ Error Logs สำหรับทีมพัฒนา",
-          tech: [".NET", "React", "TypeScript", "SQL Server"],
-          live: "",
-          repo: "",
-          link: "",
-          range: "พ.ย. 2568",
-          initials: "https://projectsuankaset-1.onrender.com",
-        },
+        // {
+        //   id: 1,
+        //   title: "WatchMan - API Log Monitor",
+        //   description:
+        //     "ระบบติดตามสถานะ API และวิเคราะห์ Error Logs สำหรับทีมพัฒนา",
+        //   tech: [".NET", "React", "TypeScript", "SQL Server"],
+        //   live: "",
+        //   repo: "",
+        //   link: "",
+        //   range: "พ.ย. 2568",
+        //   initials: "WM",
+        // },
         {
           id: 2,
           title: "SUANKASET",
@@ -182,8 +183,8 @@ const translations = {
           id: 3,
           title: "CoffeeShop Manager",
           description:
-            "ระบบจัดการร้านกาแฟ ครอบคลุมการขาย สินค้า และรายงานยอดขาย",
-          tech: ["HTML", "Bootstrap", "PHP", "MySQL"],
+            "ออกแบบระบบจัดการร้านกาแฟ",
+          tech: ["Figma"],
           live: "",
           repo: "",
           link: "https://www.figma.com/proto/5vGMbcqDbH1JYH603kYouH/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F?node-id=3-20&starting-point-node-id=3%3A20&t=rhuIiWQSQ2roFNMQ-1",
@@ -230,7 +231,7 @@ const translations = {
         },
       ],
     },
-    footer: "© 2026 Suphinya Thonglo. Built with Vue and care.",
+    footer: "© 2026 Suphinya Thonglo.",
   },
   en: {
     nav: {
@@ -306,6 +307,7 @@ const translations = {
           items: [
             "Render",
             "Neon",
+            "Vercel",
             "Supabase",
             "Git/GitHub",
             "Swagger",
@@ -340,7 +342,7 @@ const translations = {
           bullets: [
             "Developed RESTful APIs with .NET (C#) and Entity Framework Core",
             "Built the frontend with React and TypeScript",
-            "Designed and managed data with SQL Server",
+            "managed data with SQL Server",
             "Used SonarQube to inspect code quality and reduce bug risk",
             "Created API documentation with Swagger and collaborated through Git, Jira, and Agile/Scrum",
           ],
@@ -364,7 +366,7 @@ const translations = {
           period: "Aug - Oct 2024",
           title: "CoffeeShop Manager",
           description:
-            "A coffee shop management system covering point-of-sale workflows, product management, and sales reports, with UI/UX designed in Figma.",
+            "A coffee shop management system covering point-of-sale workflows with UI/UX designed in Figma.",
         },
         {
           period: "Sep - Nov 2023",
@@ -374,18 +376,18 @@ const translations = {
         },
       ],
       projects: [
-        {
-          id: 1,
-          title: "WatchMan - API Log Monitor",
-          description:
-            "An API status monitoring and error log analysis system for development teams",
-          tech: [".NET", "React", "TypeScript", "SQL Server"],
-          live: "",
-          repo: "",
-          link: "",
-          range: "Nov 2025",
-          initials: "WM",
-        },
+        // {
+        //   id: 1,
+        //   title: "WatchMan - API Log Monitor",
+        //   description:
+        //     "An API status monitoring and error log analysis system for development teams",
+        //   tech: [".NET", "React", "TypeScript", "SQL Server"],
+        //   live: "",
+        //   repo: "",
+        //   link: "",
+        //   range: "Nov 2025",
+        //   initials: "WM",
+        // },
         {
           id: 2,
           title: "SUANKASET",
@@ -402,8 +404,8 @@ const translations = {
           id: 3,
           title: "CoffeeShop Manager",
           description:
-            "A coffee shop management system for sales, products, and sales reports",
-          tech: ["HTML", "Bootstrap", "PHP", "MySQL"],
+            "Designed a coffee shop management system",
+          tech: ["Figma"],
           live: "",
           repo: "",
           link: "https://www.figma.com/proto/5vGMbcqDbH1JYH603kYouH/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F?node-id=3-20&starting-point-node-id=3%3A20&t=rhuIiWQSQ2roFNMQ-1",
@@ -450,7 +452,7 @@ const translations = {
         },
       ],
     },
-    footer: "© 2026 Suphinya Thonglo. Built with Vue and care.",
+    footer: "© 2026 Suphinya Thonglo.",
   },
 };
 
