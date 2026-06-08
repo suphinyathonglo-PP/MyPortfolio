@@ -22,7 +22,7 @@ const translations = {
       menu: "เปิดเมนู",
     },
     hero: {
-      greeting: "สวัสดีค่ะ ดิฉันคือ",
+      greeting: "สวัสดีค่ะ ดิฉันชื่อ",
       name: "สุภิญญา ทองหล่อ",
       rolePrefix: "I build as a",
       roles: [
@@ -178,6 +178,7 @@ const translations = {
           link: "https://projectsuankaset-1.onrender.com/",
           range: "ต.ค. 2568",
           initials: "สามารถเข้าชมเว็บไซต์ได้ที่นี่👆🏻",
+          screenshot: "/suankasetScreenshot.png",
         },
         {
           id: 3,
@@ -190,6 +191,7 @@ const translations = {
           link: "https://www.figma.com/proto/5vGMbcqDbH1JYH603kYouH/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F?node-id=3-20&starting-point-node-id=3%3A20&t=rhuIiWQSQ2roFNMQ-1",
           range: "ต.ค. 2567",
           initials: "สามารถเข้าชมการออกแบบและโปรโตไทป์ได้ที่นี่👆🏻",
+          screenshot: "/coffeeScreenshot.png",
         },
       ],
     },
@@ -399,6 +401,7 @@ const translations = {
           link: "https://projectsuankaset-1.onrender.com/",
           range: "Oct 2025",
           initials: "Visit the website here👆🏻",
+          screenshot: "/suankasetScreenshot.png",
         },
         {
           id: 3,
@@ -411,6 +414,7 @@ const translations = {
           link: "https://www.figma.com/proto/5vGMbcqDbH1JYH603kYouH/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F?node-id=3-20&starting-point-node-id=3%3A20&t=rhuIiWQSQ2roFNMQ-1",
           range: "Oct 2024",
           initials: "Visit the design and prototype here👆🏻",
+          screenshot: "/coffeeScreenshot.png",
         },
       ],
     },

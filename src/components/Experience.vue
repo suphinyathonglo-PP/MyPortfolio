@@ -77,31 +77,27 @@
             rel="noopener"
             class="project-thumb"
           >
-            <template v-if="project.image">
+            <template v-if="previewSrc(project)">
               <img
-                :src="project.image"
+                :src="previewSrc(project)"
                 :alt="project.title"
                 class="w-full h-full object-cover"
               />
             </template>
             <template v-else>
-              <div>{{ project.initials }}</div>
+              <div class="flex items-center justify-center h-full text-center p-4">{{ project.initials }}</div>
             </template>
           </a>
           <div v-else class="project-thumb" aria-hidden="true">
-            <template v-if="project.image">
+            <template v-if="previewSrc(project)">
               <img
-                :src="project.image"
+                :src="previewSrc(project)"
                 :alt="project.title"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover opacity-80"
               />
             </template>
             <template v-else>
-              <img
-                :src="project.initials"
-                :alt="project.title"
-                class="w-full h-full object-cover opacity-50"
-              />
+              <div class="flex items-center justify-center h-full text-center p-4 opacity-60">{{ project.initials }}</div>
             </template>
           </div>
           <div class="project-meta">
@@ -146,4 +142,14 @@ import { useI18n } from "../i18n";
 
 const { content } = useI18n();
 const experience = computed(() => content.value.experience);
+
+function previewSrc(project) {
+  if (!project) return null;
+  if (project.image) return project.image;
+  if (project.screenshot) return project.screenshot;
+  if (project.link) return `https://s.wordpress.com/mshots/v1/${encodeURIComponent(
+    project.link
+  )}?w=1200`;
+  return null;
+}
 </script>
